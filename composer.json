@@ -1,0 +1,21 @@
+{
+    "name": "iwai/aws-sdk-php-phalcon",
+    "homepage": "http://aws.amazon.com/sdkforphp2",
+    "description": "A simple Phalcon service provider for including the AWS SDK for PHP.",
+    "keywords": [ "phalcon","aws","amazon","sdk","s3","ec2","dynamodb" ],
+    "type":"library",
+    "license":"Apache-2.0",
+    "authors":[
+        {
+            "name": "Yuji Iwai",
+            "homepage": "https://github.com/iwai/aws-sdk-php-phalcon"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "aws/aws-sdk-php": "~2.0"
+    },
+    "autoload": {
+        "psr-0": { "Aws\\Phalcon": "src/" }
+    }
+}
