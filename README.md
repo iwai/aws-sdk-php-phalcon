@@ -39,3 +39,21 @@ $eventsManager->attach("application:boot", new AwsServiceProvider(array(
 echo $app->handle()->getContent();
 
 ```
+
+Example
+=======
+
+```php
+
+// Get the Amazon S3 client
+$s3 = $this->getDI()->get('aws')->get('s3');
+
+// Create a list of the buckets in your account
+$buckets = array();
+foreach ($s3->getIterator('ListBuckets') as $bucket) {
+    $buckets[] = $bucket['Name'];
+}
+
+var_dump($buckets);
+
+```
