@@ -1,6 +1,8 @@
 AWS Service Provider for Phalcon
 ===================
 
+[![Latest Stable Version](https://poser.pugx.org/iwai/aws-sdk-php-phalcon/v/stable.svg)](https://packagist.org/packages/iwai/aws-sdk-php-phalcon) [![Total Downloads](https://poser.pugx.org/iwai/aws-sdk-php-phalcon/downloads.svg)](https://packagist.org/packages/iwai/aws-sdk-php-phalcon) [![Latest Unstable Version](https://poser.pugx.org/iwai/aws-sdk-php-phalcon/v/unstable.svg)](https://packagist.org/packages/iwai/aws-sdk-php-phalcon) [![License](https://poser.pugx.org/iwai/aws-sdk-php-phalcon/license.svg)](https://packagist.org/packages/iwai/aws-sdk-php-phalcon)
+
 A simple Phalcon service provider for including the AWS SDK for PHP.
 
 Installation
