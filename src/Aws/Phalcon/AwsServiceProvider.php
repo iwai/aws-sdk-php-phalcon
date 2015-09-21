@@ -47,7 +47,7 @@ class AwsServiceProvider {
     {
         $options = $this->options;
 
-        $app->getDI()->setShared('aws', function ($options) {
+        $app->getDI()->setShared('aws', function () use ($options) {
             $aws = Aws::factory($options);
 
             $aws->getEventDispatcher()->addListener('service_builder.create_client', function (Event $event) {
